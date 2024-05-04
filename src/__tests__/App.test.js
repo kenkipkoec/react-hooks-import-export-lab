@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render } from "@testing-library/react";
 import App from "../components/App";
-
+import NavBar from "../components/NavBar"; 
 test("it renders without crashing", () => {
   try {
     expect(() => render(<App />)).not.toThrow();
